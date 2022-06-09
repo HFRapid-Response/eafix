@@ -1,0 +1,40 @@
+.at input[type="checkbox"] + span:before {
+  height: 1.125rem;
+  width: 1.125rem;
+  background: #fffdfd80;
+  border-radius: 4px;
+  border: 1px solid #77797a;
+  color: inherit;
+  content: "";
+  display: block;
+  left: 0;
+  position: absolute;
+  top: 2px;
+}
+.at-form-submit .at-submit {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.img {
+  display: inline-block;
+  position: absolute;
+  margin-top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+header.at-title {
+  padding: 23px;
+  margin: 0;
+  color: #212529;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  position: relative;
+}
+.at-markup.HeaderHtml {
+  margin-bottom: 3rem !important;
+  padding: 0 !important;
+  margin-top: 93px;
+}
